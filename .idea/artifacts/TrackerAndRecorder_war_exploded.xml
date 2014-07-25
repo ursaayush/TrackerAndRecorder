@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="TrackerAndRecorder:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/TrackerAndRecorder_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="TrackerAndRecorder/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="TrackerAndRecorder" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$USER_HOME$/Downloads/mysql-connector-java-5.1.31/mysql-connector-java-5.1.31-bin.jar" />
+          <element id="library" level="project" name="JPA 2.1-2.1" />
+          <element id="library" level="project" name="Spring-4.0.6.RELEASE" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
