@@ -58,7 +58,7 @@ public class JabberEntryPoint {
 
     public void run() {
         try {
-            login("pmaapplication", "aayushJAIN");
+            login("*******", "*******");
             System.out.println("Login successful");
             listeningForMessages();
         } catch (Exception e) {
@@ -79,7 +79,7 @@ public class JabberEntryPoint {
 
         OrFilter orFilter = new OrFilter();
         //TODO :
-        String[] addresses = new String("ursaayush@gmail.com").split(",");
+        String[] addresses = new String("somename").split(",");
         for (int i = 0; i < addresses.length; i++) {
             // remove all white spaces
             String address = addresses[i].replaceAll("\\s", "");
